@@ -10,14 +10,14 @@ ms.devlang: powershell
 ms.topic: conceptual
 ms.manager: carmonm
 ms.date: 05/15/2017
-ms.openlocfilehash: f26b204604018449584c1fd2ff199728487b1515
-ms.sourcegitcommit: 226527be7cb647acfe2ea9ab151185053ab3c6db
+ms.openlocfilehash: dbcc818ecc06d3206b8ccd6f8743c670c86cead0
+ms.sourcegitcommit: 5f2c794bfa44ec4ffacdd73f548288874210a498
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2017
+ms.lasthandoff: 07/06/2017
 ---
-<a id="overview-of-azure-powershell" class="xliff"></a>
 # Visão geral do Azure PowerShell
+<a id="overview-of-azure-powershell" class="xliff"></a>
 
 O Azure PowerShell fornece um conjunto de cmdlets que usa o modelo do [Azure Resource Manager](/azure/azure-resource-manager/resource-group-overview) para gerenciar os recursos do Azure.
 
@@ -30,21 +30,19 @@ Os exemplos a seguir podem ajudar você a saber mais sobre como executar cenári
 * [Aplicativos Web](/azure/app-service-web/app-service-powershell-samples?toc=/powershell/azure/toc.json)
 * [Bancos de dados SQL](/azure/sql-database/sql-database-powershell-samples?toc=/powershell/azure/toc.json)
 
-> [!NOTE]
-> Se você tiver implantações que usam o modelo de implantação clássico que não pode ser convertido, será possível instalar a versão de Gerenciamento de Serviços do Azure PowerShell. Para obter mais informações, consulte
 
-[Instalar o módulo de Gerenciamento de Serviços do Azure PowerShell](/powershell/azure/servicemanagement/install-azure-ps).
+> [!NOTE] > Se você tiver implantações que usam o modelo de implantação clássico que não pode ser convertido, será possível instalar a versão de Gerenciamento de Serviços do Azure PowerShell. Para obter mais informações, veja [Instalar o módulo Gerenciamento de Serviços do Azure PowerShell](/powershell/azure/servicemanagement/install-azure-ps).
 
 
-<a id="need-help-with-powershell" class="xliff"></a>
 ### Precisa de ajuda com o PowerShell?
+<a id="need-help-with-powershell" class="xliff"></a>
 
 Se você não estiver familiarizado com o PowerShell, uma introdução ao PowerShell poderá ser útil. Para começar a usar o PowerShell, veja [Criação de scripts com o PowerShell](https://technet.microsoft.com/library/bb978526.aspx).
 
 Você também pode assistir a este vídeo: [Noções básicas do PowerShell: (Parte 1) Introdução ao PowerShell](https://channel9.msdn.com/Blogs/Taste-of-Premier/PowerShellBasicsPart1).
 
-<a id="other-azure-powershell-modules" class="xliff"></a>
 ## Outros módulos do Azure PowerShell
+<a id="other-azure-powershell-modules" class="xliff"></a>
 
 * [Active Directory do Azure](/powershell/azure/active-directory/)
 * [Proteção de Informações do Azure](/powershell/azure/aip/)
