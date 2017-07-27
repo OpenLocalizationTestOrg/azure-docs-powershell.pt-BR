@@ -9,15 +9,14 @@ ms.service: azure-powershell
 ms.devlang: powershell
 ms.topic: conceptual
 ms.manager: carmonm
-ms.date: 05/15/2017
-ms.openlocfilehash: dbcc818ecc06d3206b8ccd6f8743c670c86cead0
-ms.sourcegitcommit: 5f2c794bfa44ec4ffacdd73f548288874210a498
+ms.date: 07/26/2017
+ms.openlocfilehash: 3772b68949dc9dba110e6015c8d2a8b944b26528
+ms.sourcegitcommit: 20bcef86db4e4869125bb63085fcffd009c19280
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2017
+ms.lasthandoff: 07/27/2017
 ---
-# Visão geral do Azure PowerShell
-<a id="overview-of-azure-powershell" class="xliff"></a>
+# <a name="overview-of-azure-powershell"></a>Visão geral do Azure PowerShell
 
 O Azure PowerShell fornece um conjunto de cmdlets que usa o modelo do [Azure Resource Manager](/azure/azure-resource-manager/resource-group-overview) para gerenciar os recursos do Azure.
 
@@ -34,17 +33,15 @@ Os exemplos a seguir podem ajudar você a saber mais sobre como executar cenári
 > [!NOTE] > Se você tiver implantações que usam o modelo de implantação clássico que não pode ser convertido, será possível instalar a versão de Gerenciamento de Serviços do Azure PowerShell. Para obter mais informações, veja [Instalar o módulo Gerenciamento de Serviços do Azure PowerShell](/powershell/azure/servicemanagement/install-azure-ps).
 
 
-### Precisa de ajuda com o PowerShell?
-<a id="need-help-with-powershell" class="xliff"></a>
+### <a name="need-help-with-powershell"></a>Precisa de ajuda com o PowerShell?
 
 Se você não estiver familiarizado com o PowerShell, uma introdução ao PowerShell poderá ser útil. Para começar a usar o PowerShell, veja [Criação de scripts com o PowerShell](https://technet.microsoft.com/library/bb978526.aspx).
 
 Você também pode assistir a este vídeo: [Noções básicas do PowerShell: (Parte 1) Introdução ao PowerShell](https://channel9.msdn.com/Blogs/Taste-of-Premier/PowerShellBasicsPart1).
 
-## Outros módulos do Azure PowerShell
-<a id="other-azure-powershell-modules" class="xliff"></a>
+## <a name="other-azure-powershell-modules"></a>Outros módulos do Azure PowerShell
 
 * [Active Directory do Azure](/powershell/azure/active-directory/)
 * [Proteção de Informações do Azure](/powershell/azure/aip/)
-* [Azure Service Fabric](/powershell/azure/oservice-fabric/)
+* [Azure Service Fabric](/powershell/azure/service-fabric/)
 * [ElasticDB do Azure](/powershell/azure/elasticdbjobs/)
