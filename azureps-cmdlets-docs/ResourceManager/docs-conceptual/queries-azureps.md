@@ -1,6 +1,6 @@
 ---
-title: "<span data-ttu-id=\"0b0af-101\">Consulta de recursos do Azure e formatação de resultados | Microsoft Docs</span><span class=\"sxs-lookup\"><span data-stu-id=\"0b0af-101\">Querying for Azure resources and formatting results | Microsoft Docs</span></span>"
-description: <span data-ttu-id="0b0af-102">Como consultar recursos no Azure e formatar os resultados.</span><span class="sxs-lookup"><span data-stu-id="0b0af-102">How to query for resources in Azure and format the results.</span></span>
+title: "Consulta de recursos do Azure e formatação de resultados | Microsoft Docs"
+description: Como consultar recursos no Azure e formatar os resultados.
 services: azure
 author: sdwheeler
 ms.author: sewhee
@@ -16,14 +16,12 @@ ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/29/2017
 ---
-# <span data-ttu-id="0b0af-103">Consultar recursos do Azure</span><span class="sxs-lookup"><span data-stu-id="0b0af-103">Querying for Azure resources</span></span>
-<a id="querying-for-azure-resources" class="xliff"></a>
+# <a name="querying-for-azure-resources"></a><span data-ttu-id="0b0af-103">Consultar recursos do Azure</span><span class="sxs-lookup"><span data-stu-id="0b0af-103">Querying for Azure resources</span></span>
 
 <span data-ttu-id="0b0af-104">A consulta no PowerShell pode ser concluída usando cmdlets internos.</span><span class="sxs-lookup"><span data-stu-id="0b0af-104">Querying in PowerShell can be completed by using built-in cmdlets.</span></span> <span data-ttu-id="0b0af-105">No PowerShell, os nomes de cmdlet assumem a forma de  **_Verbo-Substantivo_**.</span><span class="sxs-lookup"><span data-stu-id="0b0af-105">In PowerShell, cmdlet names take the form of **_Verb-Noun_**.</span></span> <span data-ttu-id="0b0af-106">Os cmdlets que usam o verbo **_Get_** são os cmdlets de consulta.</span><span class="sxs-lookup"><span data-stu-id="0b0af-106">The cmdlets using the verb **_Get_** are the query cmdlets.</span></span> <span data-ttu-id="0b0af-107">Os substantivos do cmdlet são os tipos de recursos do Azure que são influenciados pelos verbos do cmdlet.</span><span class="sxs-lookup"><span data-stu-id="0b0af-107">The cmdlet nouns are the types of Azure resources that are acted upon by the cmdlet verbs.</span></span>
 
 
-## <span data-ttu-id="0b0af-108">Seleção de propriedades simples</span><span class="sxs-lookup"><span data-stu-id="0b0af-108">Selecting simple properties</span></span>
-<a id="selecting-simple-properties" class="xliff"></a>
+## <a name="selecting-simple-properties"></a><span data-ttu-id="0b0af-108">Seleção de propriedades simples</span><span class="sxs-lookup"><span data-stu-id="0b0af-108">Selecting simple properties</span></span>
 
 <span data-ttu-id="0b0af-109">O Azure PowerShell tem formatação padrão definidos para cada cmdlet.</span><span class="sxs-lookup"><span data-stu-id="0b0af-109">Azure PowerShell has default formatting defined for each cmdlet.</span></span> <span data-ttu-id="0b0af-110">As propriedades mais comuns para cada tipo de recurso são automaticamente exibidas em um formato de tabela ou de lista.</span><span class="sxs-lookup"><span data-stu-id="0b0af-110">The most common properties for each resource type are displayed in a table or list format automatically.</span></span> <span data-ttu-id="0b0af-111">Para saber mais sobre formatação de saída, veja [Formatação de resultados da consulta](formatting-output.md).</span><span class="sxs-lookup"><span data-stu-id="0b0af-111">For more information about formatting output, see [Formatting query results](formatting-output.md).</span></span>
 
@@ -55,8 +53,7 @@ MyUnbuntu1610 MYWESTEURG        westeurope
 MyWin2016VM   MYWESTEURG        westeurope
 ```
 
-## <span data-ttu-id="0b0af-115">Seleção de propriedades aninhadas complexas</span><span class="sxs-lookup"><span data-stu-id="0b0af-115">Selecting complex nested properties</span></span>
-<a id="selecting-complex-nested-properties" class="xliff"></a>
+## <a name="selecting-complex-nested-properties"></a><span data-ttu-id="0b0af-115">Seleção de propriedades aninhadas complexas</span><span class="sxs-lookup"><span data-stu-id="0b0af-115">Selecting complex nested properties</span></span>
 
 <span data-ttu-id="0b0af-116">Se a propriedade que você deseja selecionar estiver aninhada profundamente na saída JSON, será necessário fornecer o caminho completo para a propriedade aninhada.</span><span class="sxs-lookup"><span data-stu-id="0b0af-116">If the property you want to select is nested deep in the JSON output you need to supply the full path to that nested property.</span></span> <span data-ttu-id="0b0af-117">O exemplo a seguir mostra como selecionar o nome da VM e o tipo do SO do cmdlet `Get-AzureRmVM`.</span><span class="sxs-lookup"><span data-stu-id="0b0af-117">The following example shows how to select the VM Name and the OS type from the `Get-AzureRmVM` cmdlet.</span></span>
 
@@ -71,8 +68,7 @@ MyUnbuntu1610   Linux
 MyWin2016VM   Windows
 ```
 
-## <span data-ttu-id="0b0af-118">Filtrar resultados usando o cmdlet Where-Object</span><span class="sxs-lookup"><span data-stu-id="0b0af-118">Filter result using the Where-Object cmdlet</span></span>
-<a id="filter-result-using-the-where-object-cmdlet" class="xliff"></a>
+## <a name="filter-result-using-the-where-object-cmdlet"></a><span data-ttu-id="0b0af-118">Filtrar resultados usando o cmdlet Where-Object</span><span class="sxs-lookup"><span data-stu-id="0b0af-118">Filter result using the Where-Object cmdlet</span></span>
 
 <span data-ttu-id="0b0af-119">O cmdlet `Where-Object` permite filtrar o resultados com base em qualquer valor de propriedade.</span><span class="sxs-lookup"><span data-stu-id="0b0af-119">The `Where-Object` cmdlet allows you to filter the result based on any property value.</span></span> <span data-ttu-id="0b0af-120">No exemplo a seguir, o filtro seleciona apenas as VMs com o texto "RGD" em seu nome.</span><span class="sxs-lookup"><span data-stu-id="0b0af-120">In the following example, the filter selects only VMs that have the text "RGD" in their name.</span></span>
 

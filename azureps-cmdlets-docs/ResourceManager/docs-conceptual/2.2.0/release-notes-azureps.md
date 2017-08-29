@@ -17,13 +17,11 @@ ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/29/2017
 ---
-# <span data-ttu-id="7de50-103">Notas de versão</span><span class="sxs-lookup"><span data-stu-id="7de50-103">Release notes</span></span>
-<a id="release-notes" class="xliff"></a>
+# <a name="release-notes"></a><span data-ttu-id="7de50-103">Notas de versão</span><span class="sxs-lookup"><span data-stu-id="7de50-103">Release notes</span></span>
 
 <span data-ttu-id="7de50-104">É uma lista das alterações feitas nesta versão do Azure PowerShell.</span><span class="sxs-lookup"><span data-stu-id="7de50-104">This is a list of changes made to Azure PowerShell in this release.</span></span>
 
-## <span data-ttu-id="7de50-105">Versão 2.2.0</span><span class="sxs-lookup"><span data-stu-id="7de50-105">Version 2.2.0</span></span>
-<a id="version-220" class="xliff"></a>
+## <a name="version-220"></a><span data-ttu-id="7de50-105">Versão 2.2.0</span><span class="sxs-lookup"><span data-stu-id="7de50-105">Version 2.2.0</span></span>
 * <span data-ttu-id="7de50-106">Computação</span><span class="sxs-lookup"><span data-stu-id="7de50-106">Compute</span></span>
   - <span data-ttu-id="7de50-107">Adicionar suporte para consultar o status da criptografia a partir da extensão AzureDiskEncryptionForLinux</span><span class="sxs-lookup"><span data-stu-id="7de50-107">Add support for querying encryption status from the AzureDiskEncryptionForLinux extension</span></span>
 * <span data-ttu-id="7de50-108">DataFactory</span><span class="sxs-lookup"><span data-stu-id="7de50-108">DataFactory</span></span>

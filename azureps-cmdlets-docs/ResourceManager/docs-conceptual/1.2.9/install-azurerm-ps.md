@@ -1,6 +1,6 @@
 ---
-title: <span data-ttu-id="f27c9-101">Instalar e configurar o Azure PowerShell | Microsoft Docs</span><span class="sxs-lookup"><span data-stu-id="f27c9-101">Install and configure Azure PowerShell | Microsoft Docs</span></span>
-description: <span data-ttu-id="f27c9-102">Como instalar e configurar o Azure PowerShell para o primeiro uso.</span><span class="sxs-lookup"><span data-stu-id="f27c9-102">How to install and configure Azure PowerShell for first time use.</span></span>
+title: Instalar e configurar o Azure PowerShell | Microsoft Docs
+description: Como instalar e configurar o Azure PowerShell para o primeiro uso.
 services: azure
 author: sdwheeler
 ms.author: sewhee
@@ -16,13 +16,11 @@ ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/29/2017
 ---
-# <span data-ttu-id="f27c9-103">Instalar e configurar o PowerShell do Azure</span><span class="sxs-lookup"><span data-stu-id="f27c9-103">Install and configure Azure PowerShell</span></span>
-<a id="install-and-configure-azure-powershell" class="xliff"></a>
+# <a name="install-and-configure-azure-powershell"></a><span data-ttu-id="f27c9-103">Instalar e configurar o PowerShell do Azure</span><span class="sxs-lookup"><span data-stu-id="f27c9-103">Install and configure Azure PowerShell</span></span>
 
 <span data-ttu-id="f27c9-104">Instalar o Azure PowerShell na Galeria do PowerShell é o método preferencial de instalação.</span><span class="sxs-lookup"><span data-stu-id="f27c9-104">Installing Azure PowerShell from the PowerShell Gallery is the preferred method of installation.</span></span>
 
-## <span data-ttu-id="f27c9-105">Etapa 1: Instalar o PowerShellGet</span><span class="sxs-lookup"><span data-stu-id="f27c9-105">Step 1: Install PowerShellGet</span></span>
-<a id="step-1-install-powershellget" class="xliff"></a>
+## <a name="step-1-install-powershellget"></a><span data-ttu-id="f27c9-105">Etapa 1: Instalar o PowerShellGet</span><span class="sxs-lookup"><span data-stu-id="f27c9-105">Step 1: Install PowerShellGet</span></span>
 
 <span data-ttu-id="f27c9-106">Instalar os itens da Galeria do PowerShell requer o módulo PowerShellGet.</span><span class="sxs-lookup"><span data-stu-id="f27c9-106">Installing items from the PowerShell Gallery requires the PowerShellGet module.</span></span> <span data-ttu-id="f27c9-107">Verifique se que você tem a versão apropriada do PowerShellGet e outros requisitos do sistema.</span><span class="sxs-lookup"><span data-stu-id="f27c9-107">Make sure you have the appropriate version of PowerShellGet and other system requirements.</span></span> <span data-ttu-id="f27c9-108">Execute o seguinte comando para ver se você tem o PowerShellGet instalado em seu sistema.</span><span class="sxs-lookup"><span data-stu-id="f27c9-108">Run the following command to see if you have PowerShellGet installed on your system.</span></span>
 
@@ -43,8 +41,7 @@ PowerShellGet 1.0.0.1 C:\Program Files\WindowsPowerShell\Modules\PowerShellGet\1
 > [!NOTE]
 > <span data-ttu-id="f27c9-111">Usar o PowerShellGet requer uma Política de Execução que permite executar scripts.</span><span class="sxs-lookup"><span data-stu-id="f27c9-111">Using PowerShellGet requires an Execution Policy that allows you to run scripts.</span></span> <span data-ttu-id="f27c9-112">Para obter mais informações sobre a Política de Execução do PowerShell, consulte [Sobre as Políticas de Execução](https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.core/about/about_execution_policies).</span><span class="sxs-lookup"><span data-stu-id="f27c9-112">For more information about PowerShell's Execution Policy, see [About Execution Policies](https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.core/about/about_execution_policies).</span></span>
 
-## <span data-ttu-id="f27c9-113">Etapa 2: instalar o Azure PowerShell</span><span class="sxs-lookup"><span data-stu-id="f27c9-113">Step 2: Install Azure PowerShell</span></span>
-<a id="step-2-install-azure-powershell" class="xliff"></a>
+## <a name="step-2-install-azure-powershell"></a><span data-ttu-id="f27c9-113">Etapa 2: instalar o Azure PowerShell</span><span class="sxs-lookup"><span data-stu-id="f27c9-113">Step 2: Install Azure PowerShell</span></span>
 
 <span data-ttu-id="f27c9-114">Instalando o Azure PowerShell a partir da Galeria do PowerShell requer privilégios elevados.</span><span class="sxs-lookup"><span data-stu-id="f27c9-114">Installing Azure PowerShell from the PowerShell Gallery requires elevated privileges.</span></span> <span data-ttu-id="f27c9-115">Execute o comando a seguir em uma sessão do PowerShell com privilégios elevados:</span><span class="sxs-lookup"><span data-stu-id="f27c9-115">Run the following command from an elevated PowerShell session:</span></span>
 
@@ -74,26 +71,22 @@ Are you sure you want to install the modules from 'PSGallery'?
 
 <span data-ttu-id="f27c9-122">Um erro poderá ocorrer se a versão anterior do Azure PowerShell estiver instalada.</span><span class="sxs-lookup"><span data-stu-id="f27c9-122">If you have a previous version of Azure PowerShell installed you may receive an error.</span></span> <span data-ttu-id="f27c9-123">Para resolver esse problema, consulte a seção [Atualizando para uma nova versão do Azure PowerShell](#update-azps) deste artigo.</span><span class="sxs-lookup"><span data-stu-id="f27c9-123">To resolve this issue, see the [Updating to a new version of Azure PowerShell](#update-azps) section of this article.</span></span>
 
-## <span data-ttu-id="f27c9-124">Etapa 3: Carregar o módulo AzureRM</span><span class="sxs-lookup"><span data-stu-id="f27c9-124">Step 3: Load the AzureRM module</span></span>
-<a id="step-3-load-the-azurerm-module" class="xliff"></a>
+## <a name="step-3-load-the-azurerm-module"></a><span data-ttu-id="f27c9-124">Etapa 3: Carregar o módulo AzureRM</span><span class="sxs-lookup"><span data-stu-id="f27c9-124">Step 3: Load the AzureRM module</span></span>
 <span data-ttu-id="f27c9-125">Depois de instalar o módulo, você precisa carregá-lo em sua sessão do PowerShell.</span><span class="sxs-lookup"><span data-stu-id="f27c9-125">Once the module is installed, you need to load the module into your PowerShell session.</span></span> <span data-ttu-id="f27c9-126">Isso deve ser feito em uma sessão normal (não elevada) do PowerShell.</span><span class="sxs-lookup"><span data-stu-id="f27c9-126">You should do this in a normal (non-elevated) PowerShell session.</span></span> <span data-ttu-id="f27c9-127">Os módulos são carregados usando o cmdlet `Import-Module` da seguinte maneira:</span><span class="sxs-lookup"><span data-stu-id="f27c9-127">Modules are loaded using the `Import-Module` cmdlet, as follows:</span></span>
 
 ```powershell
 Import-Module AzureRM
 ```
 
-## <span data-ttu-id="f27c9-128">Próximas etapas</span><span class="sxs-lookup"><span data-stu-id="f27c9-128">Next Steps</span></span>
-<a id="next-steps" class="xliff"></a>
+## <a name="next-steps"></a><span data-ttu-id="f27c9-128">Próximas etapas</span><span class="sxs-lookup"><span data-stu-id="f27c9-128">Next Steps</span></span>
 
 <span data-ttu-id="f27c9-129">Para obter mais informações sobre como usar o Azure PowerShell, consulte os seguintes artigos:</span><span class="sxs-lookup"><span data-stu-id="f27c9-129">For more information about using Azure PowerShell, see the following articles:</span></span>
 
 * [<span data-ttu-id="f27c9-130">Introdução ao Azure PowerShell</span><span class="sxs-lookup"><span data-stu-id="f27c9-130">Get started with Azure PowerShell</span></span>](get-started-azureps.md)
 
-## <span data-ttu-id="f27c9-131">Perguntas frequentes</span><span class="sxs-lookup"><span data-stu-id="f27c9-131">Frequently asked questions</span></span>
-<a id="frequently-asked-questions" class="xliff"></a>
+## <a name="frequently-asked-questions"></a><span data-ttu-id="f27c9-131">Perguntas frequentes</span><span class="sxs-lookup"><span data-stu-id="f27c9-131">Frequently asked questions</span></span>
 
-### <span data-ttu-id="f27c9-132">Como obter o PowerShellGet</span><span class="sxs-lookup"><span data-stu-id="f27c9-132">How to get PowerShellGet</span></span>
-<a id="how-to-get-powershellget" class="xliff"></a>
+### <a name="how-to-get-powershellget"></a><span data-ttu-id="f27c9-132">Como obter o PowerShellGet</span><span class="sxs-lookup"><span data-stu-id="f27c9-132">How to get PowerShellGet</span></span>
 
 |<span data-ttu-id="f27c9-133">Versão do SO</span><span class="sxs-lookup"><span data-stu-id="f27c9-133">OS Version</span></span>|<span data-ttu-id="f27c9-134">Instalar instruções</span><span class="sxs-lookup"><span data-stu-id="f27c9-134">Install instructions</span></span>|
 |---|---|
@@ -102,8 +95,7 @@ Import-Module AzureRM
 |<span data-ttu-id="f27c9-139">Estou executando uma versão do Windows com o PowerShell 3 ou 4</span><span class="sxs-lookup"><span data-stu-id="f27c9-139">I am running on a version of Windows with PowerShell 3 or PowerShell 4</span></span>|[<span data-ttu-id="f27c9-140">Obter os módulos PackageManagement</span><span class="sxs-lookup"><span data-stu-id="f27c9-140">Get the PackageManagement modules</span></span>](http://go.microsoft.com/fwlink/?LinkID=746217)|
 
 <a id="helpmechoose"></a>
-### <span data-ttu-id="f27c9-141">Verificando a versão do Azure PowerShell</span><span class="sxs-lookup"><span data-stu-id="f27c9-141">Checking the version of Azure PowerShell</span></span>
-<a id="checking-the-version-of-azure-powershell" class="xliff"></a>
+### <a name="checking-the-version-of-azure-powershell"></a><span data-ttu-id="f27c9-141">Verificando a versão do Azure PowerShell</span><span class="sxs-lookup"><span data-stu-id="f27c9-141">Checking the version of Azure PowerShell</span></span>
 
 <span data-ttu-id="f27c9-142">Embora recomendemos que você atualize para a última versão o mais cedo possível, várias versões do Azure PowerShell são suportadas.</span><span class="sxs-lookup"><span data-stu-id="f27c9-142">Although we encourage you to upgrade to the latest version as early as possible, several versions of Azure PowerShell are support.</span></span> <span data-ttu-id="f27c9-143">Para determinar a versão do Azure PowerShell instalada, execute `Get-Module AzureRM` na linha de comando.</span><span class="sxs-lookup"><span data-stu-id="f27c9-143">To determine the version of Azure PowerShell you have installed, run `Get-Module AzureRM` from your command line.</span></span>
 
@@ -111,8 +103,7 @@ Import-Module AzureRM
 Get-Module AzureRM -list | Select-Object Name,Version,Path
 ```
 
-### <span data-ttu-id="f27c9-144">Suporte para métodos de implantação clássicos</span><span class="sxs-lookup"><span data-stu-id="f27c9-144">Support for classic deployment methods</span></span>
-<a id="support-for-classic-deployment-methods" class="xliff"></a>
+### <a name="support-for-classic-deployment-methods"></a><span data-ttu-id="f27c9-144">Suporte para métodos de implantação clássicos</span><span class="sxs-lookup"><span data-stu-id="f27c9-144">Support for classic deployment methods</span></span>
 
 <span data-ttu-id="f27c9-145">Se você tiver implantações que usam o modelo de implantação clássico, será possível instalar a versão de Gerenciamento de Serviços do Azure PowerShell.</span><span class="sxs-lookup"><span data-stu-id="f27c9-145">If you have deployments that use the classic deployment model you can install the Service Management version of Azure PowerShell.</span></span> <span data-ttu-id="f27c9-146">Para obter mais informações, veja [Instalar o módulo Gerenciamento de Serviços do Azure PowerShell](/powershell/azure/servicemanagement/install-azure-ps).</span><span class="sxs-lookup"><span data-stu-id="f27c9-146">For more information, see [Install the Azure PowerShell Service Management module](/powershell/azure/servicemanagement/install-azure-ps).</span></span> <span data-ttu-id="f27c9-147">Os módulos Azure e AzureRM compartilham dependências em comum.</span><span class="sxs-lookup"><span data-stu-id="f27c9-147">The Azure and AzureRM modules share common dependencies.</span></span> <span data-ttu-id="f27c9-148">Caso você use ambos os módulos, Azure e AzureRM, instale a mesma versão de cada pacote.</span><span class="sxs-lookup"><span data-stu-id="f27c9-148">If you use both the Azure and AzureRM modules, you should install the same version of each package.</span></span>
 
@@ -141,8 +132,7 @@ Install-Module AzureRM -AllowClobber
 
 <span data-ttu-id="f27c9-153">Para saber mais, confira o tópico de ajuda para [Install-Module](https://msdn.microsoft.com/powershell/reference/5.1/PowerShellGet/install-module).</span><span class="sxs-lookup"><span data-stu-id="f27c9-153">For more information, see the help topic for [Install-Module](https://msdn.microsoft.com/powershell/reference/5.1/PowerShellGet/install-module).</span></span>
 
-### <span data-ttu-id="f27c9-154">Instalando versões de módulo lado a lado</span><span class="sxs-lookup"><span data-stu-id="f27c9-154">Installing module versions side by side</span></span>
-<a id="installing-module-versions-side-by-side" class="xliff"></a>
+### <a name="installing-module-versions-side-by-side"></a><span data-ttu-id="f27c9-154">Instalando versões de módulo lado a lado</span><span class="sxs-lookup"><span data-stu-id="f27c9-154">Installing module versions side by side</span></span>
 
 <span data-ttu-id="f27c9-155">O método PowerShellGet de instalação é o único método que suporta a instalação de diversas versões.</span><span class="sxs-lookup"><span data-stu-id="f27c9-155">The PowerShellGet method of installation is the only method that supports the installation of multiple versions.</span></span> <span data-ttu-id="f27c9-156">Por exemplo, é possível ter scripts escritos usando uma versão anterior do Azure PowerShell que você não tem tempo nem recursos para atualizar.</span><span class="sxs-lookup"><span data-stu-id="f27c9-156">For example, you may have scripts written using a previous version of Azure PowerShell that you don't have the time or resources to updated.</span></span> <span data-ttu-id="f27c9-157">Os comandos a seguir ilustram como instalar diversas versões do Azure PowerShell:</span><span class="sxs-lookup"><span data-stu-id="f27c9-157">The following commands illustrate how to install multiple versions of Azure PowerShell:</span></span>
 
@@ -160,7 +150,6 @@ Import-Module AzureRM -RequiredVersion 1.2.9
 > [!NOTE]
 > <span data-ttu-id="f27c9-160">A versão 2.1.0 e a versão 1.2.6 são as primeiras versões do módulo projetadas para ser instaladas e usadas lado a lado.</span><span class="sxs-lookup"><span data-stu-id="f27c9-160">Version 2.1.0 and version 1.2.6 are the first module versions designed to be installed and used side by side.</span></span> <span data-ttu-id="f27c9-161">Ao carregar uma versão anterior do Azure PowerShell, versões incompatíveis do módulo **AzureRM.Profile** serão carregadas.</span><span class="sxs-lookup"><span data-stu-id="f27c9-161">When loading an earlier version of the Azure PowerShell, incompatible versions of the **AzureRM.Profile** module are loaded.</span></span> <span data-ttu-id="f27c9-162">Desse modo, os cmdlets solicitarão que você faça logon sempre que um cmdlet for executado.</span><span class="sxs-lookup"><span data-stu-id="f27c9-162">This results in the cmdlets prompting you to log in whenever you execute a cmdlet.</span></span>
 
-### <span data-ttu-id="f27c9-163">Outros métodos de instalação</span><span class="sxs-lookup"><span data-stu-id="f27c9-163">Other installation methods</span></span>
-<a id="other-installation-methods" class="xliff"></a>
+### <a name="other-installation-methods"></a><span data-ttu-id="f27c9-163">Outros métodos de instalação</span><span class="sxs-lookup"><span data-stu-id="f27c9-163">Other installation methods</span></span>
 
 <span data-ttu-id="f27c9-164">Para obter informações sobre como instalar usando o Web Platform Installer ou o Pacote MSI, consulte [Outros métodos de instalação](other-install.md)</span><span class="sxs-lookup"><span data-stu-id="f27c9-164">For information about installing using the Web Platform Installer or the MSI Package, see [Other installation methods](other-install.md)</span></span>

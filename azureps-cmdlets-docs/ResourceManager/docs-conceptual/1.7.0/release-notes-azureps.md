@@ -17,13 +17,11 @@ ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/29/2017
 ---
-# <span data-ttu-id="20ccd-103">Notas de versão</span><span class="sxs-lookup"><span data-stu-id="20ccd-103">Release notes</span></span>
-<a id="release-notes" class="xliff"></a>
+# <a name="release-notes"></a><span data-ttu-id="20ccd-103">Notas de versão</span><span class="sxs-lookup"><span data-stu-id="20ccd-103">Release notes</span></span>
 
 <span data-ttu-id="20ccd-104">É uma lista das alterações feitas nesta versão do Azure PowerShell.</span><span class="sxs-lookup"><span data-stu-id="20ccd-104">This is a list of changes made to Azure PowerShell in this release.</span></span>
 
-## <span data-ttu-id="20ccd-105">Versão 1.7.0</span><span class="sxs-lookup"><span data-stu-id="20ccd-105">Version 1.7.0</span></span>
-<a id="version-170" class="xliff"></a>
+## <a name="version-170"></a><span data-ttu-id="20ccd-105">Versão 1.7.0</span><span class="sxs-lookup"><span data-stu-id="20ccd-105">Version 1.7.0</span></span>
 
 * <span data-ttu-id="20ccd-106">**Alteração de comportamento para os parâmetros -Force, -Confirm e $ConfirmPreference de todos os cmdlets. Estamos alterando essa implementação para estar alinhada com as diretrizes do PowerShell. Para a maioria dos cmdlets, isso significa remover o parâmetro Force e ignorar o prompt ShouldProcess. Os usuários precisarão incluir o parâmetro ‘-Confirm:$false’ em seus scripts do PowerShell.**</span><span class="sxs-lookup"><span data-stu-id="20ccd-106">**Behavioral change for -Force, –Confirm and $ConfirmPreference parameters for all cmdlets. We are changing this implementation to be in line with PowerShell guidelines. For most cmdlets, this means removing the Force parameter and to skip the ShouldProcess prompt, users will need to include the parameter: ‘-Confirm:$false’ in their PowerShell scripts.**</span></span> <span data-ttu-id="20ccd-107">Essas alterações estão abordando os seguintes problemas:</span><span class="sxs-lookup"><span data-stu-id="20ccd-107">This changes are addressing following issues:</span></span>
   - <span data-ttu-id="20ccd-108">implementação correta da funcionalidade –WhatIf, que permite ao usuário determinar os efeitos de um cmdlet ou script sem fazer nenhuma alteração real</span><span class="sxs-lookup"><span data-stu-id="20ccd-108">Correct implementation of –WhatIf functionality, allowing a user to determine the effects of a cmdlet or script without making any actual changes</span></span>
