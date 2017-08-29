@@ -10,11 +10,11 @@ ms.devlang: powershell
 ms.topic: conceptual
 ms.manager: carmonm
 ms.date: 07/26/2017
-ms.openlocfilehash: 3772b68949dc9dba110e6015c8d2a8b944b26528
-ms.sourcegitcommit: 20bcef86db4e4869125bb63085fcffd009c19280
+ms.openlocfilehash: 02bfc15fec83ed4078d9a054b450c5a3cd66b8e2
+ms.sourcegitcommit: db5c50de90764a9bdc7c1f1dbca3aed5bfeb05fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/22/2017
 ---
 # <a name="overview-of-azure-powershell"></a>Visão geral do Azure PowerShell
 
@@ -29,13 +29,14 @@ Os exemplos a seguir podem ajudar você a saber mais sobre como executar cenári
 * [Aplicativos Web](/azure/app-service-web/app-service-powershell-samples?toc=/powershell/azure/toc.json)
 * [Bancos de dados SQL](/azure/sql-database/sql-database-powershell-samples?toc=/powershell/azure/toc.json)
 
-
 > [!NOTE] > Se você tiver implantações que usam o modelo de implantação clássico que não pode ser convertido, será possível instalar a versão de Gerenciamento de Serviços do Azure PowerShell. Para obter mais informações, veja [Instalar o módulo Gerenciamento de Serviços do Azure PowerShell](/powershell/azure/servicemanagement/install-azure-ps).
-
 
 ### <a name="need-help-with-powershell"></a>Precisa de ajuda com o PowerShell?
 
-Se você não estiver familiarizado com o PowerShell, uma introdução ao PowerShell poderá ser útil. Para começar a usar o PowerShell, veja [Criação de scripts com o PowerShell](https://technet.microsoft.com/library/bb978526.aspx).
+Se você não estiver familiarizado com o PowerShell, uma introdução ao PowerShell poderá ser útil.
+
+* [Instalando o PowerShell](/powershell/scripting/installing-windows-powershell)
+* [Scripting with PowerShell](/powershell/scripting/scripting-with-windows-powershell) (Script com o PowerShell)
 
 Você também pode assistir a este vídeo: [Noções básicas do PowerShell: (Parte 1) Introdução ao PowerShell](https://channel9.msdn.com/Blogs/Taste-of-Premier/PowerShellBasicsPart1).
 

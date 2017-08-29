@@ -10,15 +10,41 @@ ms.service: azure-powershell
 ms.devlang: powershell
 ms.topic: conceptual
 ms.date: 05/15/2017
-ms.openlocfilehash: 368404bcb5218814b4965bb1bcda1e2876441d2a
-ms.sourcegitcommit: 226527be7cb647acfe2ea9ab151185053ab3c6db
+ms.openlocfilehash: 9cee582f74b7f3260c6ae167a8ac358d360ad8ab
+ms.sourcegitcommit: 45587b5091293288e16cfae8ac412e0d42f8f450
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2017
+ms.lasthandoff: 08/15/2017
 ---
 # <a name="other-installation-methods"></a>Outros métodos de instalação
 
 O Azure PowerShell tem vários métodos de instalação. O uso do PowerShellGet com a Galeria do PowerShell é o método preferencial. O Azure PowerShell pode ser instalado usando o Web Platform Installer (WebPI) ou usando o MSI de arquivo disponível no [GitHub](https://github.com/Azure/azure-powershell/releases/latest).
+
+## <a name="docker"></a>Docker
+
+Vamos manter uma imagem do Docker pré-configurada no Azure PowerShell.
+
+Execute o contêiner com `docker run`.
+
+```powershell
+docker run azuresdk/azure-powershell
+```
+
+Além disso, vamos manter um subconjunto de cmdlets como um contêiner do PowerShell Core.
+
+Para Mac/Linux, use a imagem `latest`.
+
+```bash
+docker run azuresdk/azure-powershell-core:latest
+```
+
+Para Windows, use a imagem `nanoserver`.
+
+```powershell
+docker run azuresdk/azure-powershell-core:nanoserver
+```
+
+O Azure PowerShell é instalado na imagem por meio de `Install-Module` da [Galeria do PowerShell](https://www.powershellgallery.com/).
 
 ## <a name="install-using-the-web-platform-installer"></a>Instalar usando o Web Platform Installer
 

@@ -58,7 +58,7 @@ ms.lasthandoff: 08/22/2017
     - Set-AzureRmEventHubAuthorizationRule – atualiza as propriedades da AuthorizationRule existente do NameSpace do EventHub.
     - Remove-AzureRmEventHubAuthorizationRule – exclui a AuthorizationRule existente do NameSpace ou do EventHub existente.
     - New-AzureRmEventHubKey – gera uma nova chave primária/secundária para AuthorizationRule do NameSpace ou do EventHub existente.
-    - Get-AzureRmEventHubKey – obtém a chave primária/secundária da AuthorizationRule do NameSpace ou do EventHub existente.
+    - Get-AzureRmEventHubKey – Obtém a chave primária/secundária da AuthorizationRule do NameSpace ou do EventHub existente.
 * Rede
     * Foi adicionado o suporte para IPv6 e o novo parâmetro opcional -PeerAddressType
       * New-AzureRmExpressRouteCircuitPeeringConfig:
