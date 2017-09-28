@@ -73,7 +73,7 @@
       "target_framework": "net45",
       "version": "latest"
     }
-  ],
+  ]
   "monikerPath": [
     "azureps-cmdlets-docs/ResourceManager/mapping/monikerMapping.json",
     "azureps-cmdlets-docs/ServiceManagement/mapping/monikerMapping.json",
