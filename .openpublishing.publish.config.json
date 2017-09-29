@@ -51,7 +51,8 @@
       "branch_mapping": {                               
         "live": "live",                              
         "master": "master"                
-      },                       
+      }
+    }
   ],
   "dependent_packages": [
     {
