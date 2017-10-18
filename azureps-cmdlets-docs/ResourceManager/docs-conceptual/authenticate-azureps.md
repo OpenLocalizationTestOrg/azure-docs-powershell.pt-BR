@@ -10,11 +10,11 @@ ms.service: azure-powershell
 ms.devlang: powershell
 ms.topic: conceptual
 ms.date: 05/15/2017
-ms.openlocfilehash: f6d249ca5bb09c4fe8445ba5b339ffa6012815ed
-ms.sourcegitcommit: 226527be7cb647acfe2ea9ab151185053ab3c6db
+ms.openlocfilehash: 1af5aeffb8e87e916df3e2440a84805935136c0f
+ms.sourcegitcommit: e6b7e20bbd04eda51416c56b13f867102b602d1a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2017
+ms.lasthandoff: 10/07/2017
 ---
 # <a name="log-in-with-azure-powershell"></a>Fazer logon com o Azure PowerShell
 
@@ -52,6 +52,12 @@ As entidades de serviço oferecem uma maneira de criar contas não interativas p
     SubscriptionName      : My Production Subscription
     CurrentStorageAccount :
     ```
+
+### <a name="log-in-using-an-azure-vm-managed-service-identity"></a>Faça logon usando uma identidade de serviço gerenciado do Azure VM
+
+A Identidade do Serviço Gerenciado (MSI) é a versão prévia de um recurso para o Azure Active Directory. Você pode usar uma entidade de serviço do MSI para conexão e adquirir um token de acesso somente de aplicativo para acessar outros recursos.
+
+Para obter mais informações sobre o MSI, consulte [Como usar uma Identidade de Serviço Gerenciado (MSI) da VM do Azure para conexão e aquisição de token](/azure/active-directory/msi-how-to-get-access-token-using-msi).
 
 ## <a name="log-in-to-another-cloud"></a>Faça logon em outra Nuvem
 
