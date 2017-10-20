@@ -10,11 +10,11 @@ ms.service: azure-powershell
 ms.devlang: powershell
 ms.topic: conceptual
 ms.date: 09/05/2017
-ms.openlocfilehash: 4a8a74977440fa89b89843bbc95e43d622a58474
-ms.sourcegitcommit: e6b7e20bbd04eda51416c56b13f867102b602d1a
+ms.openlocfilehash: 7a01957040be7c0498ef4f0e9b8f7297119221a5
+ms.sourcegitcommit: 9d2d35944106bdb6758853b050089bc804e6b9d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2017
+ms.lasthandoff: 10/17/2017
 ---
 # <a name="using-experimental-azure-powershell-modules"></a>Usando módulos experimentais do Azure PowerShell
 
@@ -35,7 +35,20 @@ Essa convenção de nomenclatura é semelhante à nomenclatura dos módulos de V
 
 ## <a name="how-to-install-an-experimental-module"></a>Como instalar um módulo experimental
 
-Os módulos experimentais são publicados na Galeria do PowerShell como módulos existentes do Azure PowerShell. Para instalar o módulo experimental, use os seguintes comandos de uma sessão do PowerShell com privilégios elevados:
+Os módulos experimentais são publicados na Galeria do PowerShell como módulos existentes do Azure PowerShell. Para ver uma lista de módulos experimentais, execute o seguinte comando:
+
+```powershell
+Find-Module AzureRM.*.Experiments
+```
+
+```Output
+Version    Name                                Repository           Description
+-------    ----                                ----------           -----------
+1.0.0      AzureRM.Websites.Experiments        PSGallery            Create and deploy web applications using Azure Ap...
+1.0.25     AzureRM.Compute.Experiments         PSGallery            Azure Compute experiments for VM creation
+```
+
+Para instalar o módulo experimental, use os seguintes comandos de uma sessão do PowerShell com privilégios elevados:
 
 ```powershell
 Install-Module AzureRM.Compute.Experiments
@@ -108,4 +121,10 @@ Receive-Job $job
 
 ```powershell
 Send-Feedback
+```
+
+### <a name="uninstall-the-experimental-modules"></a>Desinstalar os módulos experimentais
+
+```powershell
+Uninstall-Module AzureRM.Compute.Experiments
 ```
