@@ -29,6 +29,9 @@
           href: 'https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-powershell-sas-token'
     - name: Notas de versão
       href: release-notes-azureps.md
+      items:
+        - name: Alterações interruptivas no Azure PowerShell 2.x
+          href: migration-guide.2.0.0.md
 - name: Exemplos de Scripts
   items:
     - name: Máquinas Virtuais do Linux
