@@ -37,10 +37,11 @@
       items:
         - name: Usar módulos experimentais
           href: using-experimental-modules.md
-        - name: Executar os cmdlets em paralelo usando trabalhos do PowerShell
-          href: using-psjobs.md
     - name: Notas de versão
       href: release-notes-azureps.md
+      items:
+        - name: Alterações interruptivas no Azure PowerShell 5.x
+          href: migration-guide.5.0.0.md
 - name: Exemplos de Scripts
   items:
     - name: Máquinas Virtuais do Linux
