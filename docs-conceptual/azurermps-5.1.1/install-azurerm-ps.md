@@ -10,11 +10,11 @@ ms.service: azure-powershell
 ms.devlang: powershell
 ms.topic: conceptual
 ms.date: 08/31/2017
-ms.openlocfilehash: 7b7177609ef9104525f173f468d44610b4ad1fe9
-ms.sourcegitcommit: db7f0ad39036bf60985ab7bf991b2d41fb34019f
+ms.openlocfilehash: 0e560332c87fdcc8b7365f2271de24481003a4d6
+ms.sourcegitcommit: 72f56597f0329d35779a3ea4ccea6293f0fd2502
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/27/2017
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="install-and-configure-azure-powershell"></a>Instalar e configurar o PowerShell do Azure
 
@@ -114,8 +114,7 @@ Get-Module AzureRM -list | Select-Object Name,Version,Path
 
 Se você tiver implantações que usam o modelo de implantação clássico, será possível instalar a versão de Gerenciamento de Serviços do Azure PowerShell. Para obter mais informações, veja [Instalar o módulo Gerenciamento de Serviços do Azure PowerShell](/powershell/azure/servicemanagement/install-azure-ps). Os módulos Azure e AzureRM compartilham dependências em comum. Caso você use ambos os módulos, Azure e AzureRM, instale a mesma versão de cada pacote.
 
-<a id="update-azps"></a>
-### <a name="updating-to-a-new-version-of-azure-powershell"></a>Atualizando para uma nova versão do Azure PowerShell
+### <a id="update-azps"></a>Atualizando para uma nova versão do Azure PowerShell
 
 Se houver uma versão anterior do Azure PowerShell instalada que inclua o módulo de Gerenciamento de Serviços, o seguinte erro poderá ocorrer:
 
