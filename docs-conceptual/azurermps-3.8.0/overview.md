@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.manager: carmonm
 ms.date: 08/31/2017
 ms.openlocfilehash: cd6b57ff6234895ec4f7a4200f9df0852b2280c2
-ms.sourcegitcommit: 72f56597f0329d35779a3ea4ccea6293f0fd2502
+ms.sourcegitcommit: 7e77fe7ecd2112d6b4515517509c5c723e750e27
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="overview-of-azure-powershell"></a>Visão geral do Azure PowerShell
 
@@ -46,7 +46,7 @@ Ou participar da [Introdução ao PowerShell Jumpstart](https://mva.microsoft.co
 
 ## <a name="other-azure-powershell-modules"></a>Outros módulos do Azure PowerShell
 
-* [Active Directory do Azure](/powershell/azure/active-directory/)
+* [Azure Active Directory](/powershell/azure/active-directory/)
 * [Proteção de Informações do Azure](/powershell/azure/aip/)
 * [Azure Service Fabric](/powershell/azure/service-fabric/)
 * [ElasticDB do Azure](/powershell/azure/elasticdbjobs/)
