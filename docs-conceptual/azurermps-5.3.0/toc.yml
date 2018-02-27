@@ -37,6 +37,8 @@
       items:
         - name: Usar módulos experimentais
           href: using-experimental-modules.md
+        - name: Trabalhos do PowerShell
+          href: using-psjobs.md
     - name: Notas de versão
       href: release-notes-azureps.md
       items:
@@ -52,5 +54,5 @@
       href: /azure/app-service-web/app-service-powershell-samples?toc=%2fpowershell%2fmodule%2ftoc.json
     - name: BANCOS DE DADOS SQL
       href: /azure/sql-database/sql-database-powershell-samples?toc=%2fpowershell%2fmodule%2ftoc.json
-    - name: Banco de Dados Cosmos
+    - name: Cosmos DB
       href: /azure/cosmos-db/powershell-samples?toc=%2fpowershell%2fmodules%2ftoc.json
