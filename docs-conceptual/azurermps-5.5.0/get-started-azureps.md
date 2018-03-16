@@ -11,10 +11,10 @@ ms.devlang: powershell
 ms.topic: get-started-article
 ms.date: 11/15/2017
 ms.openlocfilehash: af1eccfffed551e6025014e2fd9287f3e6ebf425
-ms.sourcegitcommit: 3842efd1eb2d16f7c6d9ae87d6d7916b770658c1
+ms.sourcegitcommit: 20af779cd523c758d40e23d60eb989a4ef982d5c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="getting-started-with-azure-powershell"></a>Introdução ao Azure PowerShell
 
@@ -370,7 +370,7 @@ Para saber mais sobre como usar o Azure PowerShell, confira nossos scripts mais 
 * [Logon com o Azure PowerShell](authenticate-azureps.md)
 * [Gerenciar as assinaturas do Azure com o Azure PowerShell](manage-subscriptions-azureps.md)
 * [Criar entidades de serviço no Azure usando o Azure PowerShell](create-azure-service-principal-azureps.md)
-* Leia as notas de versão sobre a migração de uma versão mais antiga: [https://github.com/Azure/azure-powershell/tree/dev/documentation/release-notes](https://github.com/Azure/azure-powershell/tree/dev/documentation/release-notes).
+* Leia as Notas de versão sobre como migrar a partir de uma versão mais antiga: [https://github.com/Azure/azure-powershell/tree/dev/documentation/release-notes](https://github.com/Azure/azure-powershell/tree/dev/documentation/release-notes).
 * Obtenha ajuda da comunidade:
   * [Fórum do Azure no MSDN](http://go.microsoft.com/fwlink/p/?LinkId=320212)
   * [Stackoverflow](http://go.microsoft.com/fwlink/?LinkId=320213)

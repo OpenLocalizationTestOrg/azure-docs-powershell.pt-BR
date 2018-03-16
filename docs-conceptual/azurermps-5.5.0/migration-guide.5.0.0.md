@@ -388,7 +388,7 @@ $consumergroup = Get-AzureRmEventHubConsumerGroup <parameters>
 
 ### <a name="add-azurermlogalertrule"></a>**Add-AzureRMLogAlertRule**
 - O cmdlet **Add-AzureRMLogAlertRule** foi preterido
-- Depois de 1º de outubro, o uso desse cmdlet não terá qualquer efeito, já que essa funcionalidade está sendo transferida para os Alertas de Log de Atividade. Confira https://aka.ms/migratemealerts para saber mais.
+- Depois de 1º de outubro, o uso desse cmdlet não terá qualquer efeito, já que essa funcionalidade está sendo transferida para os Alertas de Log de Atividade. Consulte https://aka.ms/migratemealerts para obter mais informações.
 
 ### <a name="get-azurermusage"></a>**Get-AzureRMUsage**
 - O cmdlet **Get-AzureRMUsage** foi preterido
