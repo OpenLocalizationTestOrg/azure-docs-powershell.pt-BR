@@ -1,5 +1,5 @@
 ---
-title: "Consulta de recursos do Azure e formatação de resultados | Microsoft Docs"
+title: Consulta de recursos do Azure e formatação de resultados | Microsoft Docs
 description: Como consultar recursos no Azure e formatar os resultados.
 services: azure
 author: sdwheeler
@@ -11,10 +11,10 @@ ms.devlang: powershell
 ms.topic: conceptual
 ms.date: 03/30/2017
 ms.openlocfilehash: 93a031ce90352286bb1a5e01dc65e6db7cbe5c7e
-ms.sourcegitcommit: 20af779cd523c758d40e23d60eb989a4ef982d5c
+ms.sourcegitcommit: 15bf69bf95eceb936b3a429e741add95c308826a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="querying-for-azure-resources"></a>Consultar recursos do Azure
 
