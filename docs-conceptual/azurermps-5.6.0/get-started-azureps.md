@@ -10,11 +10,11 @@ ms.service: azure-powershell
 ms.devlang: powershell
 ms.topic: get-started-article
 ms.date: 11/15/2017
-ms.openlocfilehash: 24eb3cf1a58ac87d437d3471639cd9c8cec4070e
-ms.sourcegitcommit: 15bf69bf95eceb936b3a429e741add95c308826a
+ms.openlocfilehash: 12446697e57cc0a76b94309c2338239c16c7f580
+ms.sourcegitcommit: 8376e0bc5f862d382d7283ba72990e3707591e7b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="getting-started-with-azure-powershell"></a>Introdução ao Azure PowerShell
 
@@ -50,9 +50,9 @@ A primeira etapa é certificar-se de que você tem a versão mais recente do Azu
 
 Logon interativo:
 
-1. Digite `Login-AzureRmAccount`. Será exibida a caixa de diálogo solicitando as credenciais do Azure. A opção '-EnvironmentName' pode permitir que você faça logon no Azure China ou Azure Alemanha.
+1. Digite `Connect-AzureRmAccount`. Será exibida a caixa de diálogo solicitando as credenciais do Azure. A opção “-Environment” pode permitir que você faça logon no Azure China ou Azure Alemanha.
 
-   Por exemplo, Login-AzureRmAccount -EnvironmentName AzureChinaCloud
+   Por exemplo, Connect-AzureRmAccount -Environment AzureChinaCloud
 
 2. Digite o endereço de e-mail e a senha associada à sua conta. O Azure autentica e salva as informações de credenciais e, em seguida, fecha a janela.
 
